@@ -1,0 +1,15 @@
+<script>
+var count = 0;
+function doCount() {
+    count++;
+    var s = "Count = " + count;
+    document.getElementById('demo').innerHTML = s;
+}
+</script>
+<hr>
+<h1>one.html</h1>
+<p>Hello HTML5 from file</p>
+<a href="two.html">two.html</a>
+<a href="#" onclick="doCount()">Count</a>
+<p id="demo"></p>
+<button type="input" onclick="javascript:Android.sayHello()">Call Android</button>
